@@ -1,0 +1,49 @@
+/* 
+*{
+    color: green;
+} 
+*/
+
+/* 
+h1{
+    color: red;
+}
+*/
+
+.one{
+    color: red;
+}
+.two{
+    font-style: italic;
+}
+#first{
+    font-size: xx-large;
+}    
+
+*{
+    color: green;
+}
+h2{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.three{
+    color: yellow;
+    font-size: xx-large;
+}
+#third{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

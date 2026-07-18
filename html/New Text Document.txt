@@ -1,0 +1,21 @@
+./filename -----> same folder file
+./assets/filename ----->folder inside same folder
+
+../ ---> parent folder
+../../ ---> Grand Parent folder
+
+
+1- embed
+2- object
+3- iframe
+
+
+1-Ordered list
+        Type= 1(default),a,A,i,I
+        start= number from where we need to start
+        reversed
+2-Unordered list
+        Type= disc,circle,square
+
+
+Sementic and Non-Sementic Tags
