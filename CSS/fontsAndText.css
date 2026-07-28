@@ -1,0 +1,17 @@
+#one{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#two{
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align:justify; center,end,left */
+    /* line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 20px; */
+    text-decoration: underline dashed red 1px;
+    text-transform: lowercase;
+    text-shadow: 1px 1px 10px yellow;
+}
