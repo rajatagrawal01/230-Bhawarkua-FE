@@ -1,0 +1,31 @@
+#box1{
+    width: 100px;
+    border: 3px solid black;
+    /* display: none; */
+    display: inline-block;
+    visibility: hidden;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+#box{
+    width: 100px;
+    border: 3px solid black;
+    display: inline-block;
+    padding: 20px;
+}
+
+#main{
+    border: 2px solid black;
+    display: flex;
+    height: 200px;
+    justify-content: center; 
+    align-items: center;
+}
+
+.elements{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border: 1px solid green;
+}
