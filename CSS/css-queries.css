@@ -1,0 +1,93 @@
+/* body{
+    background-color: blue;
+} */
+
+/*
+ --variableName:value;---> Define
+ var(--variableName)---> Call
+
+  */
+
+:root{
+    --customColor:yellow;
+    --customColor2:red;
+    --height:50px;
+}
+
+*{
+    margin: calc(var(--spacing)/5);
+    /* margin: var(--spacing); */
+}
+
+
+/* h1{
+    --customColor:green;
+    background-color:var(--customColor);
+    color: yellow;
+} */
+
+/* ul #first{
+    background-color: var(--customColor2);
+} */
+/* li:first-child{
+    background-color: yellow;
+}
+
+ li:last-child{
+    background-color: red;
+} */
+
+/* li:nth-child(even){
+    background-color: green;
+} */
+/*
+div:last-child{
+    background-color: green;
+} */
+
+/* h1:hover{
+    --customColor:yellow;
+    background-color:var(--customColor);
+    color: green;
+} */
+
+#box1{
+    width: 300px;
+    height: var(--height);
+    background-color: var(--customColor);
+    color: yellow;
+}
+#box2{
+    width: 300px;
+    height: calc(var(--height)*2);
+    background-color: var(--customColor2);
+    color: yellow;
+}#box3{
+    width: 300px;
+    height: calc(var(--height)*4);
+    background-color: var(--customColor);
+    color: yellow;
+}#box4{
+    width: 300px;
+    height: 100px;
+    background-color: var(--customColor2);
+    color: yellow;
+}
+
+
+@media screen and (max-width:400px) {
+    body {
+        background-color: yellow;
+    }
+    h1{
+        color: blue;
+    }
+}
+
+
+ol li:first-child{
+    color: red;
+}
+div :first{
+    background-color: green;
+}
