@@ -21,3 +21,5 @@
 //     console.log("Inside scope",b);
 // }
 // console.log("After scope",b);
+
+
