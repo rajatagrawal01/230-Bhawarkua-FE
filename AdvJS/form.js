@@ -11,16 +11,16 @@ password.addEventListener("keyup",function(){
     // console.log(value);
 
     if(value.length<3){
-        message.innerText="Enter Greater than 5"
-        message.style.color="red"
+        lengthchk.innerText="Enter Greater than 5"
+        lengthchk.style.color="red"
     }
     else if(!value.match(/[0-9]/)){
         message.innerText="Enter a number"
         message.style.color="red"
     }
     else if(!value.match(/[A-Z]/)){
-        message.innerText="Enter a Capital letter"
-        message.style.color="red"
+        capchk.innerText="Enter a Capital letter"
+        capchk.style.color="red"
     }
     else if(!value.match(/[a-z]/)){
         message.innerText="Enter a small letter"

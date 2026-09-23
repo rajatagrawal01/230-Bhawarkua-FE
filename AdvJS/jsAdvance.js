@@ -45,24 +45,24 @@
 
 
 
-// const obj={
-//     stuName:"Rajat",
-//     designation:"Developer",
-//     normal:function () {
-//         console.log(this.stuName);
-//         console.log(this.designation);
-//     },
-//     arrow:()=>{
-//         console.log(this.stuName);
-//     }
-// }
+const obj={
+    stuName:"Rajat",
+    designation:"Developer",
+    normal:function () {
+        console.log(this.stuName);
+        console.log(this.designation);
+    },
+    arrow:()=>{
+        console.log(this.stuName);
+    }
+}
 
-// obj.normal() // returns valid output
-// obj.arrow() // returns undefined
+obj.normal() // returns valid output
+obj.arrow() // returns undefined
 
 // ============================================ForEach Function===============================
 
-var arr=[1,2,3]
+// var arr=[1,2,3]
 
 // for(var i=0;i<arr.length;i++){
 //     console.log(arr[i]*2);
@@ -70,7 +70,7 @@ var arr=[1,2,3]
 
 // ======================For Each=============================
 
-// arr.forEach(i=>console.log("ForEach: ",i*2))
+// arr.forEach(ele=>console.log("ForEach: ",ele*2))
 
 
 // ======================Map=============================
@@ -78,15 +78,17 @@ var arr=[1,2,3]
 // let doubled = arr.map((value)=>{
 //     return value*2;
 // }) 
-// doubled=[2,4,6]
+// // doubled=[2,4,6]
 // console.log("Map",doubled);
+// console.log("Old",arr);
+
 
 
 // ======================Filter=============================
 
 var arr=[1,2,3,5,4,8,7,234,123,34534,121]
 
-// let filteredArray = arr.filter((value)=>value%2==0);
+// let filteredArray = arr.filter((value)=>value>20);
 // console.log(filteredArray);
 
 // ======================Find=============================
@@ -96,13 +98,13 @@ var arr=[1,2,3,5,4,8,7,234,123,34534,121]
 
 // ======================Some=============================
 
-// let example=arr.some((value)=>value>50000);
+// let example=arr.some((value)=>value>30000);
 // console.log(example);
 
 // ======================Every=============================
 
 // let allEven=arr.every((value)=>value%2==0)
-// let allEven=arr.every((value)=>value<30000)
+// let allEven=arr.every((value)=>value<50000)
 
 // console.log(allEven);
 
@@ -115,7 +117,7 @@ var arr=[1,2,3,5,4,8,7,234,123,34534,121]
 // ======================sort()=============================
 
 
-// arr.sort()
+arr.sort()
 
 arr.sort((a,b)=>a-b) // Ascending
 arr.sort((a,b)=>b-a) // Descending

@@ -46,11 +46,16 @@ async function fetchData() {
   try {
     let response = await fetch("https://jsonplaceholder.typicode.com/users");
     let data = await response.json();
+    data.map((value)=>{
+      console.log(`Id is : ${value.id} and name is ${value.name}`);
+      
+    })
     
-    console.log(data);
+    // console.log(data);
   } catch (err) {
     console.log("Error hai bhai", err);
   }
 }
 
 fetchData()
+
