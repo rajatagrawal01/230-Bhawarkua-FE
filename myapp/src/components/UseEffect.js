@@ -12,6 +12,13 @@ export default function UseEffect() {
     useEffect(()=>{
         console.log("Name Changed");
     },[stuName])
+
+    useEffect(()=>{
+        console.log("Component Mounted");
+        return()=>{
+            console.log("Component Unmounted");
+        }
+    },[])
   
     return (
     <div>
