@@ -4,11 +4,12 @@ import img from './assets/image.jpg'
 import User from './User';
 import UseState from './components/UseState';
 import UseEffect from './components/UseEffect';
-import { useState } from 'react';
+// import { useState } from 'react';
 import APICall from './components/APICall';
+import ChildOne from './propDrilling/ChildOne'
 
 function App() {
-  const [visibility,setVisibility]=useState(true)
+  // const [visibility,setVisibility]=useState(true)
   return (
     <div>
       {/* <User name="Neha" mob="09876544" city="Indore"/>
@@ -17,7 +18,8 @@ function App() {
       {/* <UseState/> */}
       {/* {visibility && <UseEffect/>}
       <button onClick={()=>setVisibility(!visibility)}>Change Visibility</button> */}
-      <APICall/>
+      {/* <APICall/> */}
+      <ChildOne/>
       
     </div>
   );
