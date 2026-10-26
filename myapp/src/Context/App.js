@@ -4,9 +4,10 @@ import { counterContext } from "./Context";
 
 function App() {
   const [count, setCount] = useState(0);
+  const [name,setName]=useState("")
   return (
     <>
-      <counterContext.Provider value={{ count, setCount }}>
+      <counterContext.Provider value={{ count, setCount,name,setName}}>
         <Navbar />
       </counterContext.Provider>
     </>
