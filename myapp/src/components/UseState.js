@@ -21,7 +21,7 @@
 
 import { useState } from "react";
 export default function UseState() {
-    const [name, setName] = useState("Rajat");
+    const [name, setName] = useState("Guest");
     const [count, setCount] = useState(0);
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [skills, setSkills] = useState(["HTML", "CSS"]);

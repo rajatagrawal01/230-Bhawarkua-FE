@@ -38,8 +38,6 @@ export default function APICall() {
             <h1>Loading.....</h1>
         )
     }
-
-
     return (
         <div>
             <div style={styles.container}>

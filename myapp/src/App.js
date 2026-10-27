@@ -7,6 +7,8 @@ import UseEffect from './components/UseEffect';
 // import { useState } from 'react';
 import APICall from './components/APICall';
 import ChildOne from './propDrilling/ChildOne'
+import { BrowserRouter } from 'react-router-dom';
+import Redirect from './Routes/Redirect'
 
 function App() {
   // const [visibility,setVisibility]=useState(true)
@@ -19,7 +21,10 @@ function App() {
       {/* {visibility && <UseEffect/>}
       <button onClick={()=>setVisibility(!visibility)}>Change Visibility</button> */}
       {/* <APICall/> */}
-      <ChildOne/>
+      {/* <ChildOne/> */}
+      <BrowserRouter>
+        <Redirect/>
+      </BrowserRouter>
       
     </div>
   );
