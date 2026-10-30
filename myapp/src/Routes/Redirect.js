@@ -14,7 +14,6 @@ export default function Redirect() {
         <Link to="/About">About</Link><br />
         <Link to="/Contact">Contact</Link> <br />
         <Link to="/UseEffect">UseEffect</Link>
-
       </nav>
       <Routes>
         <Route path='/Home' element={<Home />} />

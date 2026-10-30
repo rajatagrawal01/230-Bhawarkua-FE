@@ -9,6 +9,7 @@ import APICall from './components/APICall';
 import ChildOne from './propDrilling/ChildOne'
 import { BrowserRouter } from 'react-router-dom';
 import Redirect from './Routes/Redirect'
+import ReducerHook from './ReducerHook';
 
 function App() {
   // const [visibility,setVisibility]=useState(true)
@@ -22,9 +23,10 @@ function App() {
       <button onClick={()=>setVisibility(!visibility)}>Change Visibility</button> */}
       {/* <APICall/> */}
       {/* <ChildOne/> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Redirect/>
-      </BrowserRouter>
+      </BrowserRouter> */}
+      <ReducerHook/>
       
     </div>
   );
